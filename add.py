@@ -1,6 +1,13 @@
-def add(a,b):
-    a=int(input("Enter the first number:"))
-    b= int(input("Enter the second number:"))
-    c=a+b
-    print(c)
-add(2,5)
+class Rational:
+    
+    def add(self, x, y):
+         return x + y
+
+    def subtract(self, x, y):
+        return x - y
+
+    def divide(self, x, y):
+        return x / y
+
+    def multiply(self, x, y):
+        return x * y
